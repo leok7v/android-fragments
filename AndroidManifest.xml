@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fragments.app">
+    <uses-sdk android:minSdkVersion="14" />
+    <supports-screens android:requiresSmallestWidthDp="320" android:compatibleWidthLimitDp="480" />
+    <!-- icon: http://commons.wikimedia.org/wiki/File:Tonal_fragments_and_upside-down_music_(8164495330).jpg -->
+    <application android:label="@string/label" android:icon="@drawable/icon" android:hardwareAccelerated="true">
+      <activity android:name=".Act" android:label="@string/label">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.DEFAULT" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+      </activity>
+      <activity android:name=".DetailsActivity" android:label="@string/label">
+      </activity>
+    </application>
+</manifest>
